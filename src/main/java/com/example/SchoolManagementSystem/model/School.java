@@ -5,6 +5,8 @@ public class School {
 	private int id;
 	
 	private String name;
+	
+	private String Add;
 
 	public int getId() {
 		return id;
@@ -20,6 +22,14 @@ public class School {
 
 	public void setName(String name) {
 		this.name = name;
+	}
+
+	public String getAdd() {
+		return Add;
+	}
+
+	public void setAdd(String add) {
+		Add = add;
 	}
 	
 	
