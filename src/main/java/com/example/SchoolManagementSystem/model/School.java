@@ -3,7 +3,13 @@ package com.example.SchoolManagementSystem.model;
 import java.util.List;
 
 public class School {
-
+	
+	private int id;
+	
+	private String name;
+	
+	private String Add;
+  
 	private int sc_id;
 
 	private double totalmoneyspend;
@@ -69,5 +75,15 @@ public class School {
 		return "School [sc_id=" + sc_id + ", totalmoneyspend=" + totalmoneyspend + ", totalmoneyearn=" + totalmoneyearn
 				+ ", totalbalance=" + totalbalance + ", student=" + student + ", school=" + school + "]";
 	}
+
+	public String getAdd() {
+		return Add;
+	}
+
+	public void setAdd(String add) {
+		Add = add;
+	}
+	
+	
 
 }
